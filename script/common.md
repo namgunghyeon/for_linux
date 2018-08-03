@@ -25,3 +25,8 @@ then
 mkdir -p "test"
 fi
 ```
+
+# find
+```shell
+grep -rnw <path> -e pattern
+```
