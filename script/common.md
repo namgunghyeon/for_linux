@@ -30,3 +30,10 @@ fi
 ```shell
 grep -rnw <path> -e pattern
 ```
+
+# for
+```shell
+for i in {1..10000}; do
+  sleep 1
+done
+```
