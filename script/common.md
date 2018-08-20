@@ -37,3 +37,8 @@ for i in {1..10000}; do
   sleep 1
 done
 ```
+
+# symbolic link
+```
+ln -s 원본 링크파일
+```
