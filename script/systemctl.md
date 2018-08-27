@@ -1,4 +1,5 @@
 # systemctl
+- init(System V Init)를 대체하는 역할
 - 부팅, 자원 관리, 데몬 로깅 등 centos7부터 탑재
 - 서비스가 죽어도 자동으로 재시작
 ## systemctl list
