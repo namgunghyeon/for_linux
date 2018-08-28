@@ -10,7 +10,7 @@ $ watch -n <interval> -d <command>
 ## Options
 ```
 -d differences
--n interval
+-n seconds
 ```
 
 ## Examples
