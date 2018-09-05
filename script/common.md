@@ -42,3 +42,15 @@ done
 ```
 ln -s 원본 링크파일
 ```
+
+# loop
+## date range
+```shell
+start=2015-01-01
+end=2015-02-20
+
+while [ ${start} != ${end} ]; do
+  echo $start
+  start=$(date --date="${start} + 1 day" +"%Y-%m-%d")
+done
+```
